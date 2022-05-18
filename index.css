@@ -1,0 +1,1167 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(шрифт/Jost-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: mysecondFont;
+    src: url(шрифт/Jost-Italic-VariableFont_wght.ttf);
+  }
+.head_and_sections{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-height: 80% !important;
+
+    /* background-color: cadetblue; */
+}
+
+.section_four{
+    width: 100%;
+
+    max-height: 170vh;
+    background-image: url('images/jalome-chirwa-7kVX9VW1S8k-unsplash.jpg') ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+/* background-color: aqua; */
+justify-content: center;
+
+}
+
+.section_four>.section_four_info{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+justify-content: center;
+height:max-content;
+
+    /* background-color: blanchedalmond; */
+    margin: auto;
+}
+.section_four_info>.section_four_info_bir{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    /* background-color: aqua; */
+    margin: auto; 
+}
+.section_four_info_bir>.section_four_info_bir_1{
+    max-width: 65%;
+    margin: auto;
+    color: white;
+    text-transform:uppercase ;
+    font-family: myFirstFont;
+    font-size: 50px;
+}
+.section_four_info>.section_four_info_eki{
+    width: 50%;
+    
+    padding: 8vh;
+    display: flex;
+    flex-direction: column;
+    height:min-content;
+
+
+    /* background-color: chartreuse; */
+    
+}
+.section_four_info_eki>.section_four_info_eki_2{
+    max-width: 95%;
+margin: auto;
+    color: white;
+    text-transform:uppercase ;
+    font-family: myFirstFont;
+    font-size: 14px;
+    padding: 5px;
+}
+.head_and_sections>.section_for_header{
+    width: 100%;
+    max-height: 80vh;
+    z-index: 1;
+    /* background-color: brown; */
+    margin:0 auto;
+    
+}
+.head_and_sections>header{
+
+    z-index:2 ;
+    position: absolute;
+ 
+    height: 10vh;
+
+    width: 100% ;
+
+}
+header>.lol_header{
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 60% !important;
+}
+
+.lol_header>.logo_type_header{
+/* background-color: aqua; */
+width: 30%;
+height: 10vh;
+
+}
+
+.logo_type_header>.logo_image_div{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+
+    /* background-color: sandybrown; */
+}
+.logo_image_div>img{
+
+height: 7vh;
+}
+
+.lol_header>.menu_header{
+    /* background-color: antiquewhite; */
+    width: 70%;
+    height: 10vh;
+    display: flex;justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.menu_header>.item_menu{
+  font-family: myFirstFont;
+    max-width: 100%;
+    color: white;
+    padding-left: 60px;
+    /* background-color: aqua; */
+ 
+}
+
+.section_for_header>.owl-carousel ,.section_for_header>.owl-theme{
+    width: 100%;
+    height: 100%;
+    position: relative !important ;
+}
+.item{
+    width: 100% ;
+    max-height: 80vh;
+
+    /* background-color: darkorange; */
+}
+.item>img{
+
+    width: 100% ;
+    height: 80vh;
+    object-fit: cover !important;
+
+}
+
+
+.owl-carousel >.owl-dots,.owl-theme>.owl-dots {
+    width: 100%;
+    margin-top: -10vh;
+    position: absolute !important;
+
+    /* background-color: aquamarine; */
+}
+
+.owl-nav{
+    display: none;
+}
+.zakat{
+    height: min-content;
+
+margin-top: 5vh;
+margin-bottom: 10vh;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+
+
+   
+  background-image: url('images/groovepaper.png');
+
+}
+
+.contacting_us{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    /* background-color: antiquewhite; */
+}
+.contacting_us>.all_contating{
+    width:60% ;
+    min-height: 30vh;    display: flex;
+flex-direction: column;
+    margin: auto;
+    /* background-color: aqua; */
+
+}
+.all_contating>.contact_title{
+    
+    padding-bottom: 3vh;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+
+.all_contating>.contact_flexingg{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+
+.all_contating>.contact_sendingg{
+    max-height: 100vh;
+    margin-top: 3vh;
+    font-family: myFirstFont;
+    max-width:min-content;
+    display: flex;
+    padding:10px 50px;
+    flex-direction: row;
+    font-size: 20px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    width: 60%;
+     background-color: rgb(251, 205, 34);
+}
+.contact_flexingg>.item_flexxing{
+ 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: crimson; */
+    max-height: 100vh;
+
+    
+}
+.contact_flexingg>.dd{
+ margin-left: 20px;
+  
+}
+.contact_flexingg>.zz{
+    margin-top: 20px;
+
+     
+   }
+   
+
+.item_flexxing>.item_flexing_title{
+    width: 100%;
+    font-size: 20px;
+max-height:20vh ;
+    padding-bottom: 5px;
+    font-family: myFirstFont;
+    font-weight: 300;
+    /* background-color: antiquewhite; */
+}
+input::placeholder{
+    width: 80%;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: myFirstFont;
+}
+input{
+    width: 80%;
+   
+    font-size: 20px;
+    font-family: myFirstFont;
+}
+.item_flexxing>.item_flexing_input
+{
+    max-height: 500vh;
+    width: 100%;
+   
+
+
+
+    font-family: myFirstFont;
+  
+    /* background-color: coral; */
+}
+.item_flexing_input>input{
+    width: 100%;
+    background-color: rgb(227 ,229 , 231);
+    border: none;
+    outline: none;
+    color: rgb(160, 160, 163);
+    height: 5vh;
+}
+.contact_title>p{
+    font-size: 40px;
+
+    color: rgb(128 ,145 , 157);   
+    font-family: myFirstFont;
+
+}
+.zakat>.zakat_all_123{
+
+    -webkit-box-shadow: 0px 0px 45px -10px rgba(2, 0, 0, 0.36);
+    -moz-box-shadow: 0px 0px 45px -10px rgba(2, 0, 0, 0.36);
+    box-shadow: 0px 0px 45px -10px rgba(2, 0, 0, 0.36);
+    width: 60%;
+    height: min-content;
+    margin: 0 auto;
+    /* background-color: darkblue; */
+    display: flex;
+    flex-direction: row;
+}
+
+.zakat>.zakat_456{
+
+    position: relative;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 60vh;
+    margin: 30vh auto;
+    /* background-color: darkblue; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.zakat_456>.zakat_456_1{
+
+
+    width: 50%;
+    max-height: 60vh;
+
+    /* background-color: darkorchid; */
+    display: flex;
+    flex-direction: column;
+}
+.zakat_456>.coleso{
+    position: absolute;
+    z-index: 1;
+    width: max-content;
+    width: 200px;
+    height: 200px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(251, 205, 34);
+}
+.coleso>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    font-family: myFirstFont;
+    color: black;
+    height: 70%;
+
+}
+.zakat_456_1>img{
+    width: 100%;
+    object-fit: fill;
+    height: 60vh;
+
+}
+
+.zakat_456_2>img{
+    width: 100%;
+    height: 60vh;
+    object-fit: fill;
+}
+.zakat_456>.zakat_456_2{
+
+
+    width: 50%;
+    max-height: 60vh;
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+}
+.zakat_all_123>.zakat_images{
+    width: 40%;
+  
+    /* background-color: salmon !important; */
+}
+
+.zakat_all_123>.zakat_info{
+    width: 60%;
+    height: 100%;
+
+
+    /* background-color: aquamarine; */
+}
+.zakat_images>.jjj{
+    width: 100% !important;
+    display: flex;
+    
+    height: 100% !important;
+
+    /* background-color: bisque; */
+}
+.aaa1{
+   
+    
+
+    width: 100%;
+
+    height: max-content !important;
+    
+/* z-index: 2; */
+    /* background-color: chartreuse  ; */
+
+
+}
+
+.items1>img{
+
+    width: 100% ;
+
+    height: 100%;
+
+    /* background-color: aqua; */
+    object-fit: cover !important;
+
+}
+.jjj >.owl-dots,.jjj>.owl-dots {
+    width: 100%;
+    margin-top: -5vh;
+    position: absolute !important;
+
+    /* background-color: aquamarine; */
+}
+
+
+
+
+.zakat_info>.info_123_zakat{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+height: min-content;    /* background-color: aqua; */
+
+}
+.info_123_zakat>.bir_zakat{
+    max-width: 100%;
+    padding-top: 20px;
+
+    padding-bottom: 2px;
+    font-family: myFirstFont;
+    font-weight: bold;
+    /* background-color: seashell; */
+    text-transform: uppercase;
+
+}
+
+.bir_zakat2{
+    max-width:min-content;
+padding: 5px;
+        background-color: rgb(251, 205, 34);
+
+}
+
+.info_123_zakat>.eki_zakat{
+    max-width: 100%;
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-family: myFirstFont;
+    font-weight: bold;
+color: rgb(128 ,145 , 157);
+    text-transform: uppercase;
+    /* background-color: blueviolet; */
+
+}
+
+.info_123_zakat>.ush_zakat{
+    max-width: 100%;
+    padding-bottom: 15px;
+    font-size: 13px;
+    font-family: myFirstFont;
+    font-weight: bold;
+    color: black;
+    /* background-color: blanchedalmond; */
+    text-transform: uppercase;
+
+}
+
+footer{
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(13, 15, 17);
+}
+
+footer>.footer_div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 85vh;
+    background-color: rgb(13, 15, 17);
+
+    /* background-color: aqua; */
+}
+
+.footer_div>.footer_icon{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    /* background-color: chocolate; */
+}
+.footer_div>.footer_about{
+    width: 100%;
+    margin-top: 5vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    /* background-color: chocolate; */
+
+}
+
+.footer_about>.footer_first_about{
+    width: 55%;
+    height: 50vh;
+    /* background-color: darkgoldenrod; */
+}
+.footer_about>.footer_second_about{
+    width: 45%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(13, 15, 17);
+}
+
+.footer_second_about>.about_title_123{
+    width: 90%;
+
+    font-size: 34px;
+text-transform: uppercase;  
+  font-family: myFirstFont;
+
+color: rgb(251, 205, 34);
+padding-bottom: 2vh;
+    /* background-color: blueviolet; */
+}
+
+.footer_second_about>.about_points{
+    max-height: min-content;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+}
+.about_points>.points_of_map{
+    display: flex;
+    flex-direction: row;
+    max-width:100%;
+    padding: 5px 0px;
+    
+    /* background-color: darkorange; */
+}
+.footer_second_about>.about_info{
+    width: 90%;
+    max-height: 100vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    /* background-color: blueviolet; */
+}
+.footer_second_about>.numbers_about{
+    width: 90%;
+    max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+    /* background-color: blueviolet; */
+}
+.numbers_about>.numbers_items_0{
+    width: max-content;
+/* background-color: aqua; */
+padding: 1px 0px;
+color: white;    
+}
+.about_info>.p_about_info{
+    width:60% ;    font-size: 15px;
+
+    max-height: 100vh;
+    color: white;
+    margin-top: 3vh;
+    /* background-color: darkgoldenrod; */
+}
+
+.points_of_map>.points112{
+    width:max-content ;
+    font-size: 17px;
+    height: max-content;
+    color: white;
+    /* background-color: violet; */
+}
+
+.points_of_map>.points111{
+    width:min-content ;
+    color: rgb(251, 205, 34);
+    padding-right:  10px;
+    font-weight: bolder;
+    font-size: 17px;
+    
+    height: min-content;
+    /* background-color: darkblue; */
+}
+.footer_icon>img{
+
+    height: 55%;
+    /* background-color: aqua; */
+}
+
+
+.footer_first_about>iframe{
+    width: 100%;
+    height: 100%;
+}
+.footer_menu>.footer_items{
+    width:max-content;
+    font-size: 17px;
+
+    font-family: myFirstFont;
+    /* background-color: blueviolet; */
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 5px;
+}.footer_div>.footer_menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: bisque; */
+    color: white;
+    align-items: center;
+    
+    height: 5vh;
+}
+
+@media  screen and (max-width: 1540px) {
+    .menu_header>.item_menu{
+     
+          padding-left: 40px;
+        
+       
+      }  
+      .section_four_info_eki>.section_four_info_eki_2{
+        max-width: 100%;
+    margin: auto;
+        color: white;
+        text-transform:uppercase ;
+        font-family: myFirstFont;
+        font-size: 12px;
+        padding: 2px;
+    }
+
+
+
+    .info_123_zakat>.ush_zakat{
+        max-width: 100%;
+        padding-bottom: 15px;
+        font-size: 11px;
+        font-family: myFirstFont;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+    
+    }
+
+
+
+
+}
+@media  screen and (max-width: 1395px) {
+    .menu_header>.item_menu{
+     
+          padding-left: 25px;
+        
+       
+      }  
+
+      .section_four_info>.section_four_info_bir{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        /* background-color: aqua; */
+        margin: auto; 
+    }
+    .section_four_info_bir>.section_four_info_bir_1{
+        max-width: 65%;
+
+        margin: auto;
+        color: white;
+        text-transform:uppercase ;
+        font-family: myFirstFont;
+        font-size: 40px;
+    }
+
+    .section_four_info>.section_four_info_eki{
+        width: 60%;
+        
+        padding: 8vh;
+        display: flex;
+        flex-direction: column;
+        height:min-content;
+    
+    
+        /* background-color: chartreuse; */
+        
+    }
+    .section_four_info_eki>.section_four_info_eki_2{
+        max-width: 100%;
+    margin: auto;
+        color: white;
+        text-transform:uppercase ;
+        font-family: myFirstFont;
+        font-size: 10px;
+        padding: 4px;
+    }
+
+
+}
+@media  screen and (max-width: 1289px) {
+    .menu_header>.item_menu{
+     
+          padding-left: 15px;
+        
+       
+      }  
+}
+
+@media  screen and (max-width: 1216px) {
+  
+    
+    
+    .footer_menu>.footer_items{
+        width:max-content;
+        font-size: 12px;
+    
+        font-family: myFirstFont;
+        /* background-color: blueviolet; */
+        text-transform: uppercase;
+        margin: 3px;
+        padding: 3px;
+    }.footer_div>.footer_menu{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* background-color: bisque; */
+        color: white;
+        align-items: center;
+        
+        height: 5vh;
+    }
+    
+    .menu_header>.item_menu{
+     
+        font-size: 0.9em;
+       
+     
+    }
+
+
+}
+
+
+@media  screen and (max-width: 1141px) {
+    .lol_header>.logo_type_header{
+        /* background-color: aqua; */
+        width: 20%;
+        height: 10vh;
+        
+        }
+    .lol_header>.menu_header{
+      /* background-color: antiquewhite; */
+      width: 80%;
+      height: 10vh;
+      display: flex;justify-content: flex-end;
+      flex-direction: row;
+      align-items: center;
+  
+  
+  }
+  .menu_header>.item_menu{
+    font-family: myFirstFont;
+      max-width: 100%;
+      font-size: 0.9em;
+      color: white;
+      padding-left: 20px;
+      /* background-color: aqua; */
+   
+  }
+
+
+}
+
+
+
+@media  screen and (max-width: 1000px) {
+    .zakat>.zakat_456{
+
+        position: relative;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 40vh;
+        margin: 30vh auto;
+        /* background-color: darkblue; */
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    
+    .zakat_456>.zakat_456_1{
+    
+    
+        width: 50%;
+        max-height: 40vh;
+    
+        /* background-color: darkorchid; */
+        display: flex;
+        flex-direction: column;
+    }
+    .zakat_456>.coleso{
+        position: absolute;
+        z-index: 1;
+        width: max-content;
+        width: 140px;
+        height: 140px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+        border-radius: 50%;
+        background-color: rgb(251, 205, 34);
+    }
+    .coleso>p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        font-family: myFirstFont;
+        color: black;
+        height: 70%;
+    
+    }
+    .zakat_456_1>img{
+        width: 100%;
+        object-fit: fill;
+        height: 40vh;
+    
+    }
+    
+    .zakat_456_2>img{
+        width: 100%;
+        height: 40vh;
+        object-fit: fill;
+    }
+    .zakat_456>.zakat_456_2{
+    
+    
+        width: 50%;
+        max-height: 60vh;
+        /* background-color: gold; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_123_zakat>.eki_zakat{
+        max-width: 100%;
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-family: myFirstFont;
+        font-weight: bold;
+    color: rgb(128 ,145 , 157);
+        text-transform: uppercase;
+    
+    }
+    
+
+    .info_123_zakat>.ush_zakat{
+        max-width: 100%;
+        padding-bottom: 15px;
+        font-size: 9px;
+        font-family: myFirstFont;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+    
+    }
+
+
+    .section_four_info>.section_four_info_bir{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        /* background-color: aqua; */
+        margin: auto; 
+    }
+    .section_four_info_bir>.section_four_info_bir_1{
+        max-width: 65%;
+        margin: auto;
+        color: white;
+        text-transform:uppercase ;
+        font-family: myFirstFont;
+        font-size: 30px;
+    }
+
+    .section_four_info>.section_four_info_eki{
+        width: 60%;
+        
+        padding: 8vh;
+        display: flex;
+        flex-direction: column;
+        height:min-content;
+    
+    
+        /* background-color: chartreuse; */
+        
+    }
+    .section_four_info_eki>.section_four_info_eki_2{
+        max-width: 100%;
+    margin: auto;
+        color: white;
+        text-transform:uppercase ;
+        font-family: myFirstFont;
+        font-size: 8px;
+        padding: 4px;
+    }
+
+
+    .lol_header>.logo_type_header{
+        /* background-color: aqua; */
+        width: 20%;
+        height: 10vh;
+        
+        }
+    .lol_header>.menu_header{
+      /* background-color: antiquewhite; */
+      width: 80%;
+      height: 10vh;
+      display: flex;justify-content: flex-end;
+      flex-direction: row;
+      align-items: center;
+  
+  
+  }
+  .menu_header>.item_menu{
+    font-family: myFirstFont;
+      max-width: 100%;
+      font-size: 0.9em;
+      color: white;
+      padding-left: 17px;
+      /* background-color: aqua; */
+   
+  }
+
+
+}
+
+
+
+
+
+
+
+@media  screen and (max-width: 500px) {
+ 
+    .zakat>.zakat_456{
+
+        position: relative;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 40vh;
+        margin: 30vh auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    
+    
+    
+    .zakat_456>.zakat_456_1{
+    
+    
+        width: 50%;
+        max-height: 40vh;
+    
+        /* background-color: darkorchid; */
+        display: flex;
+        flex-direction: column;
+    }
+    .zakat_456>.coleso{
+        position: absolute;
+        z-index: 1;
+        width: max-content;
+        width: 140px;
+        height: 140px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+        border-radius: 50%;
+        /* background-color: aquamarine; */
+        background-color: rgb(251, 205, 34);
+    }
+    .coleso>p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 70%;
+        font-family: myFirstFont;
+        color: black;
+        height: 70%;
+    
+    }
+    .zakat_456_1>img{
+        width: 100%;
+        object-fit: fill;
+        height: 40vh;
+    
+    }
+    
+    .zakat_456_2>img{
+        width: 100%;
+        height: 40vh;
+        object-fit: fill;
+    }
+    .zakat_456>.zakat_456_2{
+    
+    
+        width: 50%;
+        max-height: 60vh;
+        /* background-color: gold; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_123_zakat>.eki_zakat{
+        max-width: 100%;
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-family: myFirstFont;
+        font-weight: bold;
+    color: rgb(128 ,145 , 157);
+        text-transform: uppercase;
+    
+    }
+    
+
+    .info_123_zakat>.ush_zakat{
+        max-width: 100%;
+        padding-bottom: 15px;
+        font-size: 9px;
+        font-family: myFirstFont;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+    
+    }
+
+
+    .section_four_info>.section_four_info_bir{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        /* background-color: aqua; */
+        margin: auto; 
+    }
+    .section_four_info_bir>.section_four_info_bir_1{
+        max-width: 65%;
+        margin: auto;
+        color: white;
+        text-transform:uppercase ;
+        font-family: myFirstFont;
+        font-size: 30px;
+    }
+
+    .section_four_info>.section_four_info_eki{
+        width: 60%;
+        
+        padding: 8vh;
+        display: flex;
+        flex-direction: column;
+        height:min-content;
+    
+    
+        /* background-color: chartreuse; */
+        
+    }
+    .section_four_info_eki>.section_four_info_eki_2{
+        max-width: 100%;
+    margin: auto;
+        color: white;
+        text-transform:uppercase ;
+        font-family: myFirstFont;
+        font-size: 8px;
+        padding: 4px;
+    }
+
+
+    .lol_header>.logo_type_header{
+        /* background-color: aqua; */
+        width: 20%;
+        height: 10vh;
+        
+        }
+    .lol_header>.menu_header{
+      /* background-color: antiquewhite; */
+      width: 80%;
+      height: 10vh;
+      display: flex;justify-content: flex-end;
+      flex-direction: row;
+      align-items: center;
+  
+  
+  }
+  .menu_header>.item_menu{
+    font-family: myFirstFont;
+      max-width: 100%;
+      font-size: 0.9em;
+      color: white;
+      padding-left: 17px;
+      /* background-color: aqua; */
+   
+  }
+
+
+}
